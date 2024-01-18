@@ -3,7 +3,7 @@
 a QGIS Plugin
 
    <p align="center">
-<img src="img_AB/qgis-icon-active-break.png"  width="300" alt="Logo ActiveBreak">
+<img src="img/qgis-icon-active-break.png"  width="300" alt="Logo ActiveBreak">
 </p> 
 
 ## About plugin
@@ -33,7 +33,7 @@ The ActiveBreak plugin was developed by geologist Aldo Sardelli, with experience
 In the Plugin menu, select the Manage and install plugins... option, then a "Plugins" window is displayed.
 
    <p align="center">
-<img src="img_AB/plugin_WindowES.png"  width="500" alt="Plugin Window">
+<img src="img/plugin_WindowES.png"  width="500" alt="Plugin Window">
 </p> 
 
 Write the plugin name <b>ActiveBreak</b> in up part of the window, and push bottom Install Plugin.
@@ -57,27 +57,27 @@ Messages will only be issued from 06:00 to 18:00, distributed as follows:
 <B>06:00</B>
 
 <p align="center">
-<img src="img_AB/msave1.png"  width="1000" alt="Messages save project">  
+<img src="img/msave1.png"  width="1000" alt="Messages save project">  
 </p> 
 
 <p align="center">
-<img src="img_AB/mactivebreak1.png"  width="1000" alt="Messages take active break">  
+<img src="img/mactivebreak1.png"  width="1000" alt="Messages take active break">  
 </p> 
 
 <B>12:00</B>
 
 <p align="center">
-<img src="img_AB/mlunch.png"  width="1000" alt="Messages have lunch">  
+<img src="img/mlunch.png"  width="1000" alt="Messages have lunch">  
 </p> 
 
 <B>13:00</B>
 
 <p align="center">
-<img src="img_AB/msave1.png"  width="1000" alt="Messages save project">  
+<img src="img/msave1.png"  width="1000" alt="Messages save project">  
 </p> 
 
 <p align="center">
-<img src="img_AB/mactivebreak1.png"  width="1000" alt="Messages take active break">  
+<img src="img/mactivebreak1.png"  width="1000" alt="Messages take active break">  
 </p> 
 
 <B>18:00</B>
@@ -87,15 +87,15 @@ If the QGIS program and the ActiveBreak plugin are still active for the next wor
 <B>06:00</B>
 
 <p align="center">
-<img src="img_AB/mreload.png"  width="1000" alt="Messages reload plugin">  
+<img src="img/mreload.png"  width="1000" alt="Messages reload plugin">  
 </p> 
 
 <p align="center">
-<img src="img_AB/msave2.png"  width="1000" alt="Messages save project with reload bottom">  
+<img src="img/msave2.png"  width="1000" alt="Messages save project with reload bottom">  
 </p> 
 
 <p align="center">
-<img src="img_AB/mactivebreak2.png"  width="1000" alt="Messages take active break with reload bottom">  
+<img src="img/mactivebreak2.png"  width="1000" alt="Messages take active break with reload bottom">  
 </p> 
 
 <B>08:30</B>
@@ -107,11 +107,11 @@ The plugin starts the timer upon activation, but once the half-day of work has p
 <B>13:00</B>
 
 <p align="center">
-<img src="img_AB/msave3.png"  width="1000" alt="Messages save project with reset time bottom">  
+<img src="img/msave3.png"  width="1000" alt="Messages save project with reset time bottom">  
 </p> 
 
 <p align="center">
-<img src="img_AB/mactivebreak3.png"  width="1000" alt="Messages active break project with reset time bottom">  
+<img src="img/mactivebreak3.png"  width="1000" alt="Messages active break project with reset time bottom">  
 </p> 
 
 <B>14:30</B>
@@ -125,7 +125,7 @@ The plugin starts the timer when it is activated, but once the half-day of work 
 There are two ways to do it, the first is through a button located in the Complement Menu, in the ActiveBreak submenu in the Reset Time button. Like shown in the next figure.
 
 <p align="center">
-<img src="img_AB/menu_reset_time.png"  width="800" alt="Menu reset time">  
+<img src="img/menu_reset_time.png"  width="800" alt="Menu reset time">  
 </p>  
 
 The other way is through a button in the messages at a set time, as explained [here](#id1)
@@ -143,7 +143,7 @@ The other way is through a button in the messages at a set time, as explained [h
 The following model shows as an example the sequence in which the messages would appear if the plugin is activated at 8:15.
 
 <p align="center">
-<img src="img_AB/sequences.png"  width="800" alt="Example sequence">  
+<img src="img/sequences.png"  width="800" alt="Example sequence">  
 </p>  
 
 When activating the plugin, the messages would appear in the following sequence:
@@ -168,7 +168,7 @@ The messages will appear at the top of the QGIS canvas according to the order an
 ### When activating the plugin or restarting time.
 
 <p align="center">
-<img src="img_AB/start_time.png"  width="800" alt="start time">  
+<img src="img/start_time.png"  width="800" alt="start time">  
 </p>  
 
 ### Remember to save the project
@@ -178,19 +178,19 @@ There is always a button to save the project.
 <b>Normal</b>
 
 <p align="center">
-<img src="img_AB/saveProyect1.png"  width="800" alt="Save Project normal">  
+<img src="img/saveProyect1.png"  width="800" alt="Save Project normal">  
 </p>  
 
 <b>With a plug-in reload button</b>
 
 <p align="center">
-<img src="img_AB/saveProyect2.png"  width="800" alt="Save Project With a plug-in reload button">  
+<img src="img/saveProyect2.png"  width="800" alt="Save Project With a plug-in reload button">  
 </p>  
 
 <b>With a reset time button</b>
 
 <p align="center">
-<img src="img_AB/saveProyect3.png"  width="800" alt="Save Project With a reset time button">  
+<img src="img/saveProyect3.png"  width="800" alt="Save Project With a reset time button">  
 </p>  
 
 ### Remember to take an active break
@@ -200,19 +200,19 @@ It always has two buttons, one with a quote from a famous person and another to 
 <b>Normal</b>
 
 <p align="center">
-<img src="img_AB/activeBreak1.png"  width="800" alt="Active Break normal">  
+<img src="img/activeBreak1.png"  width="800" alt="Active Break normal">  
 </p>  
 
 <b>With a plug-in reload button</b>
 
 <p align="center">
-<img src="img_AB/activeBreak2.png"  width="800" alt="Active Break With a plug-in reload button">  
+<img src="img/activeBreak2.png"  width="800" alt="Active Break With a plug-in reload button">  
 </p>  
 
 <b>With a reset time button</b>
 
 <p align="center">
-<img src="img_AB/activeBreak3.png"  width="800" alt="Active Break With a reset time button">  
+<img src="img/activeBreak3.png"  width="800" alt="Active Break With a reset time button">  
 </p>  
 
 ### Remember to have lunch
@@ -220,7 +220,7 @@ It always has two buttons, one with a quote from a famous person and another to 
 There is always a button to save the project.
 
 <p align="center">
-<img src="img_AB/lunch.png"  width="800" alt="Have lunch">  
+<img src="img/lunch.png"  width="800" alt="Have lunch">  
 </p>  
 
 ### Reload plugin (additional)
@@ -228,7 +228,7 @@ There is always a button to save the project.
 It always has a button to reload plugin
 
 <p align="center">
-<img src="img_AB/reloadPlugin.png"  width="800" alt="Reload plugin">  
+<img src="img/reloadPlugin.png"  width="800" alt="Reload plugin">  
 </p>  
 
 ## Motivational quotes
@@ -277,19 +277,19 @@ A.A. Milne, A.C. Benson, Abraham Lincoln, Albert Einstein, Alexander Graham Bell
 When the message that remembers making an active pause appears, it will have a "my message" button. To access the quote you must press that button.
 
 <p align="center">
-<img src="img_AB/message1.png"  width="800" alt="Press button My message">  
+<img src="img/message1.png"  width="800" alt="Press button My message">  
 </p>  
 
 The message is randomly selected. The complement randomly selects one from a repository of 467 appointments.The mesanje is shown in an emerging window.
 
 <p align="center">
-<img src="img_AB/message2.png"  width="800" alt="My message">  
+<img src="img/message2.png"  width="800" alt="My message">  
 </p>  
 
 The message can be downloaded. To do this, you must press the "download" button, if not, you must press the "go for it" button to close the window.
 
 <p align="center">
-<img src="img_AB/message3.png"  width="800" alt="My message">  
+<img src="img/message3.png"  width="800" alt="My message">  
 </p>  
 
 Once you press the "download" button, a message will appear if you want to add a person's name to the message.
@@ -299,25 +299,25 @@ Once you press the "download" button, a message will appear if you want to add a
 The message can be downloaded in a jpg image with a very special design that can be personalized by adding a recipient.Press the “OK” button.
 
 <p align="center">
-<img src="img_AB/message4.png"  width="800" alt="My message">  
+<img src="img/message4.png"  width="800" alt="My message">  
 </p>  
 
 Another window will appear where you can type the person's name.
 
 <p align="center">
-<img src="img_AB/message5.png"  width="800" alt="My message">  
+<img src="img/message5.png"  width="800" alt="My message">  
 </p>  
 
 You add the name and press the accept button.
 
 <p align="center">
-<img src="img_AB/message6.png"  width="800" alt="My message">  
+<img src="img/message6.png"  width="800" alt="My message">  
 </p>  
 
 The message will be saved in the home directory of your computer.
 
 <p align="center">
-<img src="img_AB/message7.png"  width="800" alt="My message">  
+<img src="img/message7.png"  width="800" alt="My message">  
 </p>  
 
 ### Do not personalize the message
@@ -325,13 +325,13 @@ The message will be saved in the home directory of your computer.
 Press the “Cancel” button.
 
 <p align="center">
-<img src="img_AB/message8.png"  width="800" alt="My message">  
+<img src="img/message8.png"  width="800" alt="My message">  
 </p>  
 
 The message will be saved in the home directory of your computer.
 
 <p align="center">
-<img src="img_AB/message9.png"  width="800" alt="My message">  
+<img src="img/message9.png"  width="800" alt="My message">  
 </p>  
 
 
