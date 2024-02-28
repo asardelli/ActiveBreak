@@ -3,14 +3,14 @@
 a QGIS Plugin
 
    <p align="center">
-<img src="img/qgis-icon-active-break.png"  width="300" alt="Logo ActiveBreak">
+<img src="img_AB/qgis-icon-active-break.png"  width="300" alt="Logo ActiveBreak">
 </p> 
 
 ## About plugin
 
-Some aspects during an intense work day, resulting from total immersion in the activity being carried out, may be: constantly saving the project, working more than two continuous hours in the same position or skipping lunch time. Over time this goes against the health, morale and ultimately the productivity of the worker.
+Some of the consequences of an intense work day, the result of total immersion in the activity being carried out, are: not constantly saving the project, working more than two hours in a row in the same position or skipping lunch time. Over time, this situation goes against the health, morale and, ultimately, the productivity of the worker.
 
-ActiveBreak is a plugin for QGIS that emits messages at the top of the canvas at time intervals from the start of work, reminding the user to take an active break, take their lunch and/or reminders indicating to save their QGIS project with the option to do so , depending on the time the message is broadcast. Additionally, it offers the user inspiring quotes from personalities related to the business, scientific, artistic, spiritual, social, political world, etc.
+ActiveBreak is a plugin for QGIS that emits messages at the top of the canvas at time intervals from the start of work, reminding the user to take an active break, take their lunch and/or reminders indicating to save their QGIS project, depending on the time the message is broadcast. Additionally, it offers the user inspiring quotes from personalities related to the business, scientific, artistic, spiritual, social, political world, etc.
 
 ## Language
 
@@ -33,22 +33,22 @@ The ActiveBreak plugin was developed by geologist Aldo Sardelli, with experience
 In the Plugin menu, select the Manage and install plugins... option, then a "Plugins" window is displayed.
 
    <p align="center">
-<img src="img/plugin_WindowES.png"  width="500" alt="Plugin Window">
+<img src="img_AB/plugin_WindowES.png"  width="500" alt="Plugin Window">
 </p> 
 
 Write the plugin name <b>ActiveBreak</b> in up part of the window, and push bottom Install Plugin.
 
 <b>Right, The plugin is ready!</b>
 
-## What are you doing?
+## What does the plugin do?
 
 1. Issues a Reminder message to take an active break - every 2 hours.
 2. Issues a reminder message to save the project - intermediate between active pauses
 3. It issues a message that it is time for lunch - between 12:00 and 13:00.
 4. Present a message with a phrase from important people (artists, political figures, leaders)
 5. It allows you to download the message and it is possible to personalize it.
-6. When the plugin is active for more than 18 hours and a new workday starts, a message will be issued indicating this and with the option to reset the plugin. This option will also be found in the active pause and save the project messages. In the time from 6:00 to 8:00.
-7. A button that allows you to save changes to the project. This is incorporated into the notice to save the project and the one that indicates that it is time for lunch.
+6. When the plugin is active for more than 18 hours and a new workday starts, a message will be issued indicating this and with the option to reset the plugin. This option will also appear in reminders to take an active break and save the project. From 6:00 to 8:30.
+7. A button that allows you to save changes to the project. This is incorporated into the notice to save the project, to take an active break and the one that indicates that it is time for lunch.
 
 ## Schedule
 
@@ -57,45 +57,45 @@ Messages will only be issued from 06:00 to 18:00, distributed as follows:
 <B>06:00</B>
 
 <p align="center">
-<img src="img/msave1.png"  width="1000" alt="Messages save project">  
+<img src="img_AB/msave1.png"  width="1000" alt="Messages save project">  
 </p> 
 
 <p align="center">
-<img src="img/mactivebreak1.png"  width="1000" alt="Messages take active break">  
+<img src="img_AB/mactivebreak1.png"  width="1000" alt="Messages take active break">  
 </p> 
 
 <B>12:00</B>
 
 <p align="center">
-<img src="img/mlunch.png"  width="1000" alt="Messages have lunch">  
+<img src="img_AB/mlunch.png"  width="1000" alt="Messages have lunch">  
 </p> 
 
 <B>13:00</B>
 
 <p align="center">
-<img src="img/msave1.png"  width="1000" alt="Messages save project">  
+<img src="img_AB/msave1.png"  width="1000" alt="Messages save project">  
 </p> 
 
 <p align="center">
-<img src="img/mactivebreak1.png"  width="1000" alt="Messages take active break">  
+<img src="img_AB/mactivebreak1.png"  width="1000" alt="Messages take active break">  
 </p> 
 
 <B>18:00</B>
 
-If the QGIS program and the ActiveBreak plugin are still active for the next working day, a message will begin to be issued from 06:00 to 08:00, with a frequency of 30 minutes, a message suggesting reloading the plugin in order to restart the coronameter. Likewise, the main messages of saving the project and taking an active pause will have a button to reload the plugin.
+If the QGIS program and the ActiveBreak plugin are still active for the next working day, a message will begin to be issued from 06:00 to 08:30, with a frequency of 30 minutes, a message suggesting reloading the plugin in order to restart the chronometer. Likewise, the main messages of saving the project and taking an active pause will have a button to reload the plugin.
 
 <B>06:00</B>
 
 <p align="center">
-<img src="img/mreload.png"  width="1000" alt="Messages reload plugin">  
+<img src="img_AB/mreload.png"  width="1000" alt="Messages reload plugin">  
 </p> 
 
 <p align="center">
-<img src="img/msave2.png"  width="1000" alt="Messages save project with reload bottom">  
+<img src="img_AB/msave2.png"  width="1000" alt="Messages save project with reload bottom">  
 </p> 
 
 <p align="center">
-<img src="img/mactivebreak2.png"  width="1000" alt="Messages take active break with reload bottom">  
+<img src="img_AB/mactivebreak2.png"  width="1000" alt="Messages take active break with reload bottom">  
 </p> 
 
 <B>08:30</B>
@@ -107,11 +107,11 @@ The plugin starts the timer upon activation, but once the half-day of work has p
 <B>13:00</B>
 
 <p align="center">
-<img src="img/msave3.png"  width="1000" alt="Messages save project with reset time bottom">  
+<img src="img_AB/msave3.png"  width="1000" alt="Messages save project with reset time bottom">  
 </p> 
 
 <p align="center">
-<img src="img/mactivebreak3.png"  width="1000" alt="Messages active break project with reset time bottom">  
+<img src="img_AB/mactivebreak3.png"  width="1000" alt="Messages active break project with reset time bottom">  
 </p> 
 
 <B>14:30</B>
@@ -122,10 +122,10 @@ Outside of these hours, messages are not issued.
 
 The plugin starts the timer when it is activated, but once the half-day of work has passed, a gap may occur between the issuance of messages and the user's work reality. That is why the ActiveBreak plugin allows you to reset the timer.
 
-There are two ways to do it, the first is through a button located in the Complement Menu, in the ActiveBreak submenu in the Reset Time button. Like shown in the next figure.
+There are two ways to do it, the first is through a button located in the Complement Menu, in the ActiveBreak submenu in the Reset Time button. See the following figure.
 
 <p align="center">
-<img src="img/menu_reset_time.png"  width="800" alt="Menu reset time">  
+<img src="img_AB/menu_reset_time.png"  width="800" alt="Menu reset time">  
 </p>  
 
 The other way is through a button in the messages at a set time, as explained [here](#id1)
@@ -135,19 +135,19 @@ The other way is through a button in the messages at a set time, as explained [h
 - <b>Message 1:</b> <i>ActiveBreak. Set time from now  07:43:46!</i> Issued when activating the plugin or restarting time.
 - <b>Message 2:</b> <i>"Active Break", It's time to take your active break"</i> is issued with a frequency of every 2 hours from the activation of the plugin and at the established time.
 - <b>Message 3:</b> <i>It's important to save your project, do it now!</i> It is broadcast between the active pause messages.
-- <b>Message 4:</b> <i>It's time for your lunch. Enjoy!</i> replaces messages 2 and 3 at lunch time.
-- <b>Message 5:</b> <i>“The ActiveBreak plugin is active since 2023-12-27 07:43:46.990523. It's advisable to reload.”</i> It is issued from 06:00 to 08:00 only if the complement has remained active since a previous workday, with a frequency of 30 minutes between messages 2 and/or 3.
+- <b>Message 4:</b> <i>It's time for your lunch. Enjoy it!</i> replaces messages 2 and 3 at lunch time.
+- <b>Message 5:</b> <i>“The ActiveBreak plugin is active since 2023-12-27 07:43:46.990523. It's advisable to reload.”</i> It is issued from 06:00 to 08:30 only if the complement has remained active since a previous workday, with a frequency of 30 minutes between messages 2 and/or 3.
 
 ## Sequence
 
 The following model shows as an example the sequence in which the messages would appear if the plugin is activated at 8:15.
 
 <p align="center">
-<img src="img/sequences.png"  width="800" alt="Example sequence">  
+<img src="img_AB/sequences.png"  width="800" alt="Example sequence">  
 </p>  
 
 When activating the plugin, the messages would appear in the following sequence:
-- Activation moment, Message 1.
+- •	Plugin activation, Message 1.
 - At the first hour, message 3 would appear.
 - At the second hour, message 2 would appear.
 - At the third hour, message 3 would appear,
@@ -168,7 +168,7 @@ The messages will appear at the top of the QGIS canvas according to the order an
 ### When activating the plugin or restarting time.
 
 <p align="center">
-<img src="img/start_time.png"  width="800" alt="start time">  
+<img src="img_AB/start_time.png"  width="800" alt="start time">  
 </p>  
 
 ### Remember to save the project
@@ -178,19 +178,19 @@ There is always a button to save the project.
 <b>Normal</b>
 
 <p align="center">
-<img src="img/saveProyect1.png"  width="800" alt="Save Project normal">  
+<img src="img_AB/saveProyect1.png"  width="800" alt="Save Project normal">  
 </p>  
 
 <b>With a plug-in reload button</b>
 
 <p align="center">
-<img src="img/saveProyect2.png"  width="800" alt="Save Project With a plug-in reload button">  
+<img src="img_AB/saveProyect2.png"  width="800" alt="Save Project With a plug-in reload button">  
 </p>  
 
 <b>With a reset time button</b>
 
 <p align="center">
-<img src="img/saveProyect3.png"  width="800" alt="Save Project With a reset time button">  
+<img src="img_AB/saveProyect3.png"  width="800" alt="Save Project With a reset time button">  
 </p>  
 
 ### Remember to take an active break
@@ -200,19 +200,19 @@ It always has two buttons, one with a quote from a famous person and another to 
 <b>Normal</b>
 
 <p align="center">
-<img src="img/activeBreak1.png"  width="800" alt="Active Break normal">  
+<img src="img_AB/activeBreak1.png"  width="800" alt="Active Break normal">  
 </p>  
 
 <b>With a plug-in reload button</b>
 
 <p align="center">
-<img src="img/activeBreak2.png"  width="800" alt="Active Break With a plug-in reload button">  
+<img src="img_AB/activeBreak2.png"  width="800" alt="Active Break With a plug-in reload button">  
 </p>  
 
 <b>With a reset time button</b>
 
 <p align="center">
-<img src="img/activeBreak3.png"  width="800" alt="Active Break With a reset time button">  
+<img src="img_AB/activeBreak3.png"  width="800" alt="Active Break With a reset time button">  
 </p>  
 
 ### Remember to have lunch
@@ -220,7 +220,7 @@ It always has two buttons, one with a quote from a famous person and another to 
 There is always a button to save the project.
 
 <p align="center">
-<img src="img/lunch.png"  width="800" alt="Have lunch">  
+<img src="img_AB/lunch.png"  width="800" alt="Have lunch">  
 </p>  
 
 ### Reload plugin (additional)
@@ -228,7 +228,7 @@ There is always a button to save the project.
 It always has a button to reload plugin
 
 <p align="center">
-<img src="img/reloadPlugin.png"  width="800" alt="Reload plugin">  
+<img src="img_AB/reloadPlugin.png"  width="800" alt="Reload plugin">  
 </p>  
 
 ## Motivational quotes
@@ -277,19 +277,19 @@ A.A. Milne, A.C. Benson, Abraham Lincoln, Albert Einstein, Alexander Graham Bell
 When the message that remembers making an active pause appears, it will have a "my message" button. To access the quote you must press that button.
 
 <p align="center">
-<img src="img/message1.png"  width="800" alt="Press button My message">  
+<img src="img_AB/message1.png"  width="800" alt="Press button My message">  
 </p>  
 
 The message is randomly selected. The complement randomly selects one from a repository of 467 appointments.The mesanje is shown in an emerging window.
 
 <p align="center">
-<img src="img/message2.png"  width="800" alt="My message">  
+<img src="img_AB/message2.png"  width="800" alt="My message">  
 </p>  
 
 The message can be downloaded. To do this, you must press the "download" button, if not, you must press the "go for it" button to close the window.
 
 <p align="center">
-<img src="img/message3.png"  width="800" alt="My message">  
+<img src="img_AB/message3.png"  width="800" alt="My message">  
 </p>  
 
 Once you press the "download" button, a message will appear if you want to add a person's name to the message.
@@ -299,25 +299,25 @@ Once you press the "download" button, a message will appear if you want to add a
 The message can be downloaded in a jpg image with a very special design that can be personalized by adding a recipient.Press the “OK” button.
 
 <p align="center">
-<img src="img/message4.png"  width="800" alt="My message">  
+<img src="img_AB/message4.png"  width="800" alt="My message">  
 </p>  
 
 Another window will appear where you can type the person's name.
 
 <p align="center">
-<img src="img/message5.png"  width="800" alt="My message">  
+<img src="img_AB/message5.png"  width="800" alt="My message">  
 </p>  
 
 You add the name and press the accept button.
 
 <p align="center">
-<img src="img/message6.png"  width="800" alt="My message">  
+<img src="img_AB/message6.png"  width="800" alt="My message">  
 </p>  
 
 The message will be saved in the home directory of your computer.
 
 <p align="center">
-<img src="img/message7.png"  width="800" alt="My message">  
+<img src="img_AB/message7.png"  width="800" alt="My message">  
 </p>  
 
 ### Do not personalize the message
@@ -325,13 +325,13 @@ The message will be saved in the home directory of your computer.
 Press the “Cancel” button.
 
 <p align="center">
-<img src="img/message8.png"  width="800" alt="My message">  
+<img src="img_AB/message8.png"  width="800" alt="My message">  
 </p>  
 
 The message will be saved in the home directory of your computer.
 
 <p align="center">
-<img src="img/message9.png"  width="800" alt="My message">  
+<img src="img_AB/message9.png"  width="800" alt="My message">  
 </p>  
 
 
