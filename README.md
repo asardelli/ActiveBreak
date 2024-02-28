@@ -33,7 +33,7 @@ The ActiveBreak plugin was developed by geologist Aldo Sardelli, with experience
 In the Plugin menu, select the Manage and install plugins... option, then a "Plugins" window is displayed.
 
    <p align="center">
-<img src="img_AB/plugin_WindowES.png"  width="500" alt="Plugin Window">
+<img src="img/plugin_WindowES.png"  width="500" alt="Plugin Window">
 </p> 
 
 Write the plugin name <b>ActiveBreak</b> in up part of the window, and push bottom Install Plugin.
@@ -57,27 +57,27 @@ Messages will only be issued from 06:00 to 18:00, distributed as follows:
 <B>06:00</B>
 
 <p align="center">
-<img src="img_AB/msave1.png"  width="1000" alt="Messages save project">  
+<img src="img/msave1.png"  width="1000" alt="Messages save project">  
 </p> 
 
 <p align="center">
-<img src="img_AB/mactivebreak1.png"  width="1000" alt="Messages take active break">  
+<img src="img/mactivebreak1.png"  width="1000" alt="Messages take active break">  
 </p> 
 
 <B>12:00</B>
 
 <p align="center">
-<img src="img_AB/mlunch.png"  width="1000" alt="Messages have lunch">  
+<img src="img/mlunch.png"  width="1000" alt="Messages have lunch">  
 </p> 
 
 <B>13:00</B>
 
 <p align="center">
-<img src="img_AB/msave1.png"  width="1000" alt="Messages save project">  
+<img src="img/msave1.png"  width="1000" alt="Messages save project">  
 </p> 
 
 <p align="center">
-<img src="img_AB/mactivebreak1.png"  width="1000" alt="Messages take active break">  
+<img src="img/mactivebreak1.png"  width="1000" alt="Messages take active break">  
 </p> 
 
 <B>18:00</B>
@@ -87,15 +87,15 @@ If the QGIS program and the ActiveBreak plugin are still active for the next wor
 <B>06:00</B>
 
 <p align="center">
-<img src="img_AB/mreload.png"  width="1000" alt="Messages reload plugin">  
+<img src="img/mreload.png"  width="1000" alt="Messages reload plugin">  
 </p> 
 
 <p align="center">
-<img src="img_AB/msave2.png"  width="1000" alt="Messages save project with reload bottom">  
+<img src="img/msave2.png"  width="1000" alt="Messages save project with reload bottom">  
 </p> 
 
 <p align="center">
-<img src="img_AB/mactivebreak2.png"  width="1000" alt="Messages take active break with reload bottom">  
+<img src="img/mactivebreak2.png"  width="1000" alt="Messages take active break with reload bottom">  
 </p> 
 
 <B>08:30</B>
@@ -107,11 +107,11 @@ The plugin starts the timer upon activation, but once the half-day of work has p
 <B>13:00</B>
 
 <p align="center">
-<img src="img_AB/msave3.png"  width="1000" alt="Messages save project with reset time bottom">  
+<img src="img/msave3.png"  width="1000" alt="Messages save project with reset time bottom">  
 </p> 
 
 <p align="center">
-<img src="img_AB/mactivebreak3.png"  width="1000" alt="Messages active break project with reset time bottom">  
+<img src="img/mactivebreak3.png"  width="1000" alt="Messages active break project with reset time bottom">  
 </p> 
 
 <B>14:30</B>
@@ -125,7 +125,7 @@ The plugin starts the timer when it is activated, but once the half-day of work 
 There are two ways to do it, the first is through a button located in the Complement Menu, in the ActiveBreak submenu in the Reset Time button. See the following figure.
 
 <p align="center">
-<img src="img_AB/menu_reset_time.png"  width="800" alt="Menu reset time">  
+<img src="img/menu_reset_time.png"  width="800" alt="Menu reset time">  
 </p>  
 
 The other way is through a button in the messages at a set time, as explained [here](#id1)
@@ -143,7 +143,7 @@ The other way is through a button in the messages at a set time, as explained [h
 The following model shows as an example the sequence in which the messages would appear if the plugin is activated at 8:15.
 
 <p align="center">
-<img src="img_AB/sequences.png"  width="800" alt="Example sequence">  
+<img src="img/sequences.png"  width="800" alt="Example sequence">  
 </p>  
 
 When activating the plugin, the messages would appear in the following sequence:
