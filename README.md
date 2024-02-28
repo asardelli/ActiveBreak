@@ -3,7 +3,7 @@
 a QGIS Plugin
 
    <p align="center">
-<img src="img_AB/qgis-icon-active-break.png"  width="300" alt="Logo ActiveBreak">
+<img src="img/qgis-icon-active-break.png"  width="300" alt="Logo ActiveBreak">
 </p> 
 
 ## About plugin
